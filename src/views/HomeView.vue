@@ -1,12 +1,17 @@
 <template>
-  <section class="hero">
-    <div class="container">
-      <img alt="Vue logo" src="../assets/logo.png">
-      <p>The Next Kind is a new society actively working towards the world of post-scarcity.</p>
-    </div>
-  </section>
 
-  <section class="questions">
+  <div class="home">  
+    <HeroImage/>
+
+    <section class="questions is-large">
+      <div class="container has-text-centered">
+        <p class="subtitle">
+          What you may want to know
+        </p>
+        <p class="title">
+          FAQ
+        </p>
+      </div>
     <ExpandableQuestion heading="What is post-scarcity?">
       <p>Post-scarcity is a theoretical economic situation in which most goods can be produced in great abundance with minimal human labor needed, so that they become available to all very cheaply or even freely. <UniversalLink to="https://en.wikipedia.org/wiki/Post-scarcity_economy">Wikipedia</UniversalLink></p>
     </ExpandableQuestion>
@@ -27,10 +32,7 @@
     </ExpandableQuestion>
   </section>
 
-  <section class="invest">
-    <h1 class="heading">Join Us</h1>
-    <p>Invest your own time and/or money. Come and say hello on <UniversalLink to="https://discord.gg/qH4dzk4D">Discord</UniversalLink> or send an email to <UniversalLink to="mailto:mirek@nextkind.org">mirek@nextkind.org</UniversalLink></p>
-  </section>
+  <CTASection/>
 
   <section class="timeline">
     <div class="event">
@@ -53,20 +55,50 @@
       <span class="date">June 2020</span>
       <p><i>The Future We Are Building</i> book published and Transhuma was founded.</p>
     </div>
+    
   </section>
 
   <SectionFooter/>
-
+  </div>
 </template>
 
 
 
 <script>
+import HeroImage from '../components/HeroImage.vue'
 import UniversalLink from '@/components/UniversalLink.vue'
 import SectionFooter from '@/components/SectionFooter.vue'
 import ExpandableQuestion from '@/components/ExpandableQuestion.vue'
+import CTASection from '@/components/CTASection.vue'
 
 export default {
-  components: { UniversalLink, SectionFooter, ExpandableQuestion }
+  components: { HeroImage, UniversalLink, CTASection, SectionFooter, ExpandableQuestion }
 }
 </script>
+
+<style scoped>
+.questions {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.title {
+  color: white;
+  font-size: 3rem;
+  font-family: 'Rajdhani', 'sans-serif';
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.24em;
+  word-wrap: break-word;
+  margin-bottom: 50px;
+}
+
+.subtitle {
+  color: #e2e2e2;
+  font-size: 0.8rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding-bottom: 4px;
+}
+</style>

@@ -8,3 +8,9 @@ export default {
   props: ['to']
 }
 </script>
+
+<style scoped>
+  a {
+    color: #00f8ff;
+  }
+</style>
