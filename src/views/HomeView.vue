@@ -19,7 +19,7 @@
       <p>We invest time and money into the research of technology required to achieve fully automatic supply chains.</p>
     </ExpandableQuestion>
     <ExpandableQuestion heading="What type of organization are you?">
-      <p>The results of our research are open source and free to use to <i>not for profit</i>/<i>community</i> purposes, and the same is licensed to <i>for profit</i> parties for a fee. We are a <i>for profit</i> to make things happen.</p>
+      <p>The results of our research are open source and free to use to <i>not for profit</i>/<i>community</i> purposes, and the same results are licensed to <i>for profit</i> parties for a fee. We are a <i>for profit</i> to make things happen.</p>
     </ExpandableQuestion>
     <ExpandableQuestion heading="What specific technology are you researching?">
       <p>We work on machines and robots listed in the Tech Framework of the Automated Human Habitat page.</p>

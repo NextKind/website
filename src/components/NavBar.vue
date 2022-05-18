@@ -57,7 +57,7 @@ methods: {
 
 .navbar-item:hover, a.navbar-item:focus {
   background-color: transparent;
-  color: #f90bc2;
+  color: #006fc3;
 }
 
 .navbar-brand img {

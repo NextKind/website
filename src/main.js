@@ -4,10 +4,10 @@ import router from './router'
 import 'bulma/css/bulma.css'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
-import { faDiscord } from '@fortawesome/free-brands-svg-icons'
+import { faDiscord, faFacebookSquare, faYoutube } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
-library.add(faDiscord, faEnvelope)
+library.add(faDiscord, faEnvelope, faFacebookSquare, faYoutube)
 
 const app = createApp(App)
 app.use(router)
