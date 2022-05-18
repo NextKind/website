@@ -6,17 +6,8 @@
     </div> <!-- cd-timeline-img -->
 
 <div class="cd-timeline-content">
-      <h2>The Next Kind</h2>
-      <div class="timeline-content-info">
-        <span class="timeline-content-info-date">
-          March/April 2022
-        </span>
-      </div>
+      <h2>March/April 2022</h2>
       <p>A group of like-minded people joined and the Next Kind was founded. (What Transhuma was meant to become.)</p>
-      <ul class="content-skills">
-      <li>Transhuma</li>
-      <li>NextKind</li>
-      </ul>
     </div> <!-- cd-timeline-content -->
   </div> <!-- cd-timeline-block -->
 
@@ -25,12 +16,7 @@
     </div> <!-- cd-timeline-img -->
 
 <div class="cd-timeline-content">
-      <h2>Searching for a place</h2>
-      <div class="timeline-content-info">
-        <span class="timeline-content-info-date">
-          September 2021
-        </span>
-      </div>
+      <h2>September 2021</h2>
       <p>The search for the first place, where to start prototyping the tech and grow an experimental community, has begun.</p>
     </div> <!-- cd-timeline-content -->
   </div> <!-- cd-timeline-block -->
@@ -40,17 +26,8 @@
     </div> <!-- cd-timeline-img -->
 
 <div class="cd-timeline-content">
-      <h2>Sigma</h2>
-      <div class="timeline-content-info">
-        <span class="timeline-content-info-date">
-          April 2021
-        </span>
-      </div>
+      <h2>April 2021</h2>
       <p>First version of the <UniversalLink to="https://sigma.mirek.cc/">Sigma Modular Construction System</UniversalLink> was published.</p>
-      <ul class="content-skills">
-      <li>Sigma</li>
-      <li>Transhuma</li>
-      </ul>
     </div> <!-- cd-timeline-content -->
   </div> <!-- cd-timeline-block -->
 
@@ -59,17 +36,8 @@
     </div> 
 
 <div class="cd-timeline-content">
-      <h2>_Construct</h2>
-      <div class="timeline-content-info">
-        <span class="timeline-content-info-date">
-          December 2020
-        </span>
-      </div>
+      <h2>December 2020</h2>
       <p>First version of the <i>_Construct</i> community planning software was published.</p>
-      <ul class="content-skills">
-      <li>_Construct</li>
-      <li>Transhuma</li>
-      </ul>
     </div> <!-- cd-timeline-content -->
   </div> <!-- cd-timeline-block -->
 
@@ -77,17 +45,8 @@
     <div class="cd-timeline-img cd-movie">
     </div> <!-- cd-timeline-img -->
 <div class="cd-timeline-content">
-      <h2>The Beggining</h2>
-      <div class="timeline-content-info">
-        <span class="timeline-content-info-date">
-          June 2020
-        </span>
-      </div>
+      <h2>June 2020</h2>
       <p><i>The Future We Are Building</i> book published and Transhuma was founded.</p>
-      <ul class="content-skills">
-      <li>Book</li>
-      <li>Transhuma</li>
-      </ul>
     </div> <!-- cd-timeline-content -->
   </div> <!-- cd-timeline-block -->
 </section> <!-- cd-timeline -->
@@ -152,7 +111,7 @@
 
 @media only screen and (min-width: 1170px) {
   .cd-timeline-block {
-    margin: -4em 0;
+    margin: -2em 0;
   }
   .cd-timeline-block:first-child {
     margin-top: 0;
@@ -197,51 +156,12 @@
   border-radius: 2px;
   padding: 1em;
 }
-  
-.timeline-content-info {
-    background: #2B343A;
-    padding: 5px 10px;
-    color: rgba(255,255,255,0.7);
-    font-size: 12px;
-    box-shadow:  inset 0 2px 0 rgba(0, 0, 0, 0.08);
-    border-radius: 2px;
-}   
-
-i {
-  margin-right: 5px;
-}
-
-
-.timeline-content-info-title, .timeline-content-info-date {  
-  width: calc(50% - 2px);
-  display: inline-block;
-}
 
 @media (max-width: 500px) {
   .timeline-content-info-title, .timeline-content-info-date {  
     display: block;
     width:100%;
   } 
-}
-
-.content-skills {
-    font-size: 12px;
-    padding:0;
-    margin-bottom: 0;
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-li {
-  background: #006FC3;
-  border-radius: 2px;
-  display: inline-block;
-  padding: 2px 10px;
-  color: white;
-  margin: 3px 2px;
-  text-align: center;
-  flex-grow: 1;
 }
 
 .cd-timeline-content:after {
@@ -251,19 +171,15 @@ li {
 }
 
 .cd-timeline-content h2 {
-  color: rgba(255,255,255,.9);
+  color: #006fc3;
   margin-top:0;
   margin-bottom: 5px;
 }
 
-.cd-timeline-content p, .cd-timeline-content .cd-date {
+.cd-timeline-content p {
   color: rgba(255,255,255,.7);
   font-size: 13px;
   font-size: 0.8125rem;
-}
-
-.cd-timeline-content .cd-date {
-  display: inline-block;
 }
 
 .cd-timeline-content p {
@@ -295,7 +211,7 @@ li {
     font-size: 16px;
     font-size: 1rem;
   }
-  .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
+  .cd-timeline-content .cd-read-more {
     font-size: 14px;
     font-size: 0.875rem;
   }
@@ -315,14 +231,6 @@ li {
     border-color: transparent;
     border-left-color: #222831;
   }
-  .cd-timeline-content .cd-date {
-    position: absolute;
-    width: 100%;
-    left: 122%;
-    top: 6px;
-    font-size: 16px;
-    font-size: 1rem;
-  }
   .cd-timeline-block:nth-child(even) .cd-timeline-content {
     float: right;
   }
@@ -335,11 +243,6 @@ li {
   }
   .cd-timeline-block:nth-child(even) .cd-timeline-content .cd-read-more {
     float: right;
-  }
-  .cd-timeline-block:nth-child(even) .cd-timeline-content .cd-date {
-    left: auto;
-    right: 122%;
-    text-align: right;
   }
 }
 </style>

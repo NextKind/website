@@ -22,10 +22,7 @@
       <p>The results of our research are open source and free to use to <i>not for profit</i>/<i>community</i> purposes, and the same results are licensed to <i>for profit</i> parties for a fee. We are a <i>for profit</i> to make things happen.</p>
     </ExpandableQuestion>
     <ExpandableQuestion heading="What specific technology are you researching?">
-      <p>We work on machines and robots listed in the Tech Framework of the Automated Human Habitat page.</p>
-    </ExpandableQuestion>
-    <ExpandableQuestion heading="What is post-scarcity?">
-      <p>Post-scarcity is a theoretical economic situation in which most goods can be produced in great abundance with minimal human labor needed, so that they become available to all very cheaply or even freely. <UniversalLink to="https://en.wikipedia.org/wiki/Post-scarcity_economy">Wikipedia</UniversalLink></p>
+      <p>We work on machines and robots listed in the <UniversalLink to="https://transhuma.tech/#/framework/overview">Tech Framework of the Automated Human Habitat</UniversalLink> online book.</p>
     </ExpandableQuestion>
     <ExpandableQuestion heading="What is your goal?">
       <p>Our current goal is to prove that post-scarcity is possible by developing a fully automatic farm for growing and harvesting of monocarpic plants.</p>

@@ -4,23 +4,23 @@
     <div class="link-boxes">
       <ul class="box">
         <li class="link_name">Contact</li>
-        <li><a class="email" href="mailto:me@verccina.com">me@verccina.com</a></li>
+        <li><a class="email" href="mailto:info@nextkind.org">info@nextkind.org</a></li>
       
       <div class="media-icons">
           <SocialIcon 
             pack="fab" 
             icon="facebook-square"
-            href="https://www.facebook.com/verccina">
+            href="https://www.facebook.com/Transhuma">
           </SocialIcon>
           <SocialIcon 
             pack="fab" 
             icon="youtube"
-            href="https://www.youtube.com/c/Verccina">
+            href="https://www.youtube.com/channel/UCm9HY_xXLYbTWCvz-wR44FQ">
           </SocialIcon>
           <SocialIcon 
             pack="fab" 
             icon="discord"
-            href="https://discord.gg/v9cxDJuASs">
+            href="https://discord.gg/hhVTMTUx">
           </SocialIcon>
         </div>
         </ul>
@@ -29,16 +29,11 @@
         <li>The Next Kind is a new society actively working towards the world of post-scarcity.</li>
       </ul>
       <ul class="box">
-        <li class="link_name">Any bug?</li>
-        <li>Hey you! Did you find any bug? Please, let us know so we can fix it. Thank you!</li>
-      </ul>
-      <ul class="box">
         <li class="link_name">Links</li>
         <li><router-link :to="{ path: '/' }">Home</router-link></li>
-        <li><router-link :to="{ path: '/about' }">About</router-link></li>
-        <li><a href="https://discord.gg/v9cxDJuASs">Join us on Discord</a></li>
-        <li><a href="http://transhuma.tech/#the-future-we-are-building">The Future We Are Building Book</a></li>
-        <li><a href="https://www.buymeacoffee.com/transhuma/">Buy Us a Coffee</a></li>
+        <li><a href="https://discord.gg/hhVTMTUx">Join Us on Discord</a></li>
+        <li><a href="https://transhuma.tech/#/framework/overview">The Tech Framework</a></li>
+        <li><a href="http://transhuma.tech/#the-future-we-are-building">The Future We Are Building</a></li>
       </ul>
     </div>
   </div>
