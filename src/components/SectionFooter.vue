@@ -99,12 +99,13 @@ footer .content .link-boxes .box{
 }
 
 .content .link-boxes .box .link_name{
-  font-family: 'Playfair Display', 'sans-serif';
+  font-family: 'Rajdhani', 'sans-serif';
   color: #fff;
   font-size: 1.2em;
-  font-weight: 400;
+  font-weight: 700;
   margin-bottom: 30px;
   position: relative;
+  text-transform: uppercase;
 }
 
 .content .link-boxes .box li{

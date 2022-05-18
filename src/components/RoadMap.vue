@@ -1,58 +1,53 @@
 <template>
-<section id="cd-timeline" class="cd-container">
+<section class="cd-timeline cd-container">
 
-  <div class="cd-timeline-block">
-    <div class="cd-timeline-img cd-movie">
-    </div> <!-- cd-timeline-img -->
+  <RoadMapStep when="June 2020">
+    <p><i>The Future We Are Building</i> book published and Transhuma was founded.</p>
+  </RoadMapStep>
+  <RoadMapStep when="December 2020">
+    <p>First version of the <i>_Construct</i> community planning software was published.</p>
+  </RoadMapStep>
+  <RoadMapStep when="April 2021">
+    <p>First version of the <UniversalLink to="https://sigma.mirek.cc/">Sigma Modular Construction System</UniversalLink> was published.</p>
+  </RoadMapStep>
+  <RoadMapStep when="September 2021">
+    <p>The search for the first place, where to start prototyping the tech and grow an experimental community, has begun.</p>
+  </RoadMapStep>
+  <RoadMapStep when="March/April 2022">
+    <p>A group of like-minded people joined and the Next Kind was founded. (What Transhuma was meant to become.)</p>
+  </RoadMapStep>
+</section>
 
-<div class="cd-timeline-content">
-      <h2>March/April 2022</h2>
-      <p>A group of like-minded people joined and the Next Kind was founded. (What Transhuma was meant to become.)</p>
-    </div> <!-- cd-timeline-content -->
-  </div> <!-- cd-timeline-block -->
-
-  <div class="cd-timeline-block">
-    <div class="cd-timeline-img cd-picture">
-    </div> <!-- cd-timeline-img -->
-
-<div class="cd-timeline-content">
-      <h2>September 2021</h2>
-      <p>The search for the first place, where to start prototyping the tech and grow an experimental community, has begun.</p>
-    </div> <!-- cd-timeline-content -->
-  </div> <!-- cd-timeline-block -->
-
-  <div class="cd-timeline-block">
-    <div class="cd-timeline-img cd-location">
-    </div> <!-- cd-timeline-img -->
-
-<div class="cd-timeline-content">
-      <h2>April 2021</h2>
-      <p>First version of the <UniversalLink to="https://sigma.mirek.cc/">Sigma Modular Construction System</UniversalLink> was published.</p>
-    </div> <!-- cd-timeline-content -->
-  </div> <!-- cd-timeline-block -->
-
-  <div class="cd-timeline-block">
-    <div class="cd-timeline-img cd-location">
-    </div> 
-
-<div class="cd-timeline-content">
-      <h2>December 2020</h2>
-      <p>First version of the <i>_Construct</i> community planning software was published.</p>
-    </div> <!-- cd-timeline-content -->
-  </div> <!-- cd-timeline-block -->
-
-  <div class="cd-timeline-block">
-    <div class="cd-timeline-img cd-movie">
-    </div> <!-- cd-timeline-img -->
-<div class="cd-timeline-content">
-      <h2>June 2020</h2>
-      <p><i>The Future We Are Building</i> book published and Transhuma was founded.</p>
-    </div> <!-- cd-timeline-content -->
-  </div> <!-- cd-timeline-block -->
-</section> <!-- cd-timeline -->
+<section class="cd-timeline cd-container future">
+  <div class="cd-timeline-block"></div>
+  <RoadMapStep when="June/July 2022">
+    <p>Incorporate a legal body for the community.</p>
+  </RoadMapStep>
+  <RoadMapStep when="July/August 2022">
+    <p>Rent a temporary land, unite physically, and start working on the farm prototype.</p>
+  </RoadMapStep>
+  <RoadMapStep when="Autumn/Winter 2023">
+    <p>A working 3D simulation of the farm, with software ready to be deployed to the physical prototype.</p>
+  </RoadMapStep>
+  <RoadMapStep when="Summer/Autumn 2023">
+    <p>A working prototype of the farm.</p>
+  </RoadMapStep>
+  <RoadMapStep when="Next">
+    <p>Acquiring land, community project, and the beginning of construction.</p>
+  </RoadMapStep>
+</section>
 </template>
 
-<style scoped>
+<script>
+import RoadMapStep from '@/components/RoadMapStep.vue'
+
+export default {
+  components: { RoadMapStep }
+}
+
+</script>
+
+<style>
 .cd-container {
   width: 90%;
   max-width: 1080px;
@@ -66,13 +61,11 @@
   clear: both;
 }
 
-#cd-timeline {
+.cd-timeline {
   position: relative;
   padding: 2em 0;
-  margin-top: 2em;
-  margin-bottom: 2em;
 }
-#cd-timeline::before {
+.cd-timeline::before {
   content: '';
   position: absolute;
   top: 0;
@@ -82,12 +75,12 @@
   background: #008CD0;
 }
 
+.cd-timeline.future::before {
+  background: #333;
+}
+
 @media only screen and (min-width: 1170px) {
-  #cd-timeline {
-    margin-top: 3em;
-    margin-bottom: 3em;
-  }
-  #cd-timeline::before {
+  .cd-timeline::before {
     left: 50%;
     margin-left: -2px;
   }
@@ -131,8 +124,16 @@
   box-shadow: 0 0 0 4px #008CD0, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
 }
 
+.cd-timeline.future .cd-timeline-img {
+  box-shadow: 0 0 0 4px #333, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+}
+
 .cd-timeline-img {
   background: #00f8ff;
+}
+
+.cd-timeline.future .cd-timeline-img {
+  background: #555;
 }
 
 @media only screen and (min-width: 1170px) {
@@ -157,6 +158,10 @@
   padding: 1em;
 }
 
+.cd-timeline.future .cd-timeline-content {
+  background: #2e323a;
+}
+
 @media (max-width: 500px) {
   .timeline-content-info-title, .timeline-content-info-date {  
     display: block;
@@ -176,10 +181,18 @@
   margin-bottom: 5px;
 }
 
+.cd-timeline.future .cd-timeline-content h2 {
+  color: #909090;
+}
+
 .cd-timeline-content p {
-  color: rgba(255,255,255,.7);
+  color: white;
   font-size: 13px;
   font-size: 0.8125rem;
+}
+
+.cd-timeline.future .cd-timeline-content p {
+  color: #a8a8a8;
 }
 
 .cd-timeline-content p {
@@ -190,7 +203,7 @@
 .cd-timeline-content::before {
   content: '';
   position: absolute;
-  top: 16px;
+  top: 15px;
   right: 100%;
   height: 0;
   width: 0;
@@ -226,7 +239,7 @@
     margin: 0 5%
   }
   .cd-timeline-content::before {
-    top: 24px;
+    top: 30px;
     left: 100%;
     border-color: transparent;
     border-left-color: #222831;
@@ -235,7 +248,7 @@
     float: right;
   }
   .cd-timeline-block:nth-child(even) .cd-timeline-content::before {
-    top: 24px;
+    top: 30px;
     left: auto;
     right: 100%;
     border-color: transparent;
