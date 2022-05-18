@@ -33,30 +33,7 @@
   </section>
 
   <CTASection/>
-
-  <section class="timeline">
-    <div class="event">
-      <span class="date">March, April 2022</span>
-      <p>A group of like-minded people joined and the Next Kind was founded. (What Transhuma was meant to become.)</p>
-    </div>
-    <div class="event">
-      <span class="date">September 2021</span>
-      <p>The search for the first place, where to start prototyping the tech and grow an experimental community, has begun.</p>
-    </div>
-    <div class="event">
-      <span class="date">April 2021</span>
-      <p>First version of the <UniversalLink to="https://sigma.mirek.cc/">Sigma Modular Construction System</UniversalLink> was published.</p>
-    </div>
-    <div class="event">
-      <span class="date">December 2020</span>
-      <p>First version of the <i>_Construct</i> community planning software was published.</p>
-    </div>
-    <div class="event">
-      <span class="date">June 2020</span>
-      <p><i>The Future We Are Building</i> book published and Transhuma was founded.</p>
-    </div>
-    
-  </section>
+  <RoadMap/>
 
   <SectionFooter/>
   </div>
@@ -70,9 +47,10 @@ import UniversalLink from '@/components/UniversalLink.vue'
 import SectionFooter from '@/components/SectionFooter.vue'
 import ExpandableQuestion from '@/components/ExpandableQuestion.vue'
 import CTASection from '@/components/CTASection.vue'
+import RoadMap from '@/components/RoadMap.vue'
 
 export default {
-  components: { HeroImage, UniversalLink, CTASection, SectionFooter, ExpandableQuestion }
+  components: { HeroImage, UniversalLink, CTASection, SectionFooter, ExpandableQuestion, RoadMap }
 }
 </script>
 

@@ -30,7 +30,7 @@
 
 <style scoped>
 .section-cta {
-    background: linear-gradient(90deg, #00f8ff, #006fc3);
+    background: linear-gradient(90deg, #00B0E0, #006fc3);
     padding-top: 40px;
     padding-bottom: 40px;
     }
