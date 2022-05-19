@@ -47,4 +47,11 @@ export default {
   margin-bottom: 20px;
   background-color: #222831;
 }
+
+@media (max-width: 1035px) {
+  .visible, .expanding {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+}
 </style>

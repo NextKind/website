@@ -86,8 +86,8 @@
   margin-right: 0.5em;
 }
 
-@media (max-width: 520px) {
-  .section-cta .title, .section-cta .subtitle, .buttons-cta .button {
+@media (max-width: 1035px) {
+  .section-cta .title, .section-cta .subtitle, .buttons-cta .button, .section-cta .text {
     margin-left: 30px;
   }
 } 

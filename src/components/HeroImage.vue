@@ -44,9 +44,5 @@
     font-size: 1.5rem;
     color: #f90bc2;
   }
-
-  .homepage .hero-body {
-    background-position: left -200px top 0;
-  }
 }
 </style>
