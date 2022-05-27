@@ -18,7 +18,7 @@
             <font-awesome-icon :icon="[ 'fab' , 'discord' ]" /> Discord
           </a>
           <a class="button"
-            href="#" 
+            href="mailto:humans@nextkind.org"
             target="_blank"
           >
             <font-awesome-icon :icon="[ 'fas' , 'envelope' ]" /> Email Us

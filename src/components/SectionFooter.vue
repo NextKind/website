@@ -4,7 +4,7 @@
     <div class="link-boxes">
       <ul class="box">
         <li class="link_name">Contact</li>
-        <li><a class="email" href="mailto:info@nextkind.org">info@nextkind.org</a></li>
+        <li><a class="email" href="mailto:humans@nextkind.org">humans@nextkind.org</a></li>
       
       <div class="media-icons">
           <SocialIcon 
