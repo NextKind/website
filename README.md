@@ -7,7 +7,7 @@ The list is located at `https://nextkind.org/links/?version=1` as a JSON list an
 
 # Contributing to the List of Post-Scarcity Related Efforts
 
-If you want to add something to the list, please fork this repository, edit the list file `/public/links/v1.json` and create a pull request with your changes. You can do that [](here).
+If you want to add something to the list, please fork this repository, edit the list file `/public/links/v1.json` and create a pull request with your changes. You can do that [on this link](https://github.com/NextKind/website/edit/main/public/links/v1.json).
 
 - Please order items alphabetically according to their title.
 - `icon` and `tags` are not mandatory but recommended.
