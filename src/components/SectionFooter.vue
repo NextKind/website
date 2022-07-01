@@ -20,7 +20,7 @@
           <SocialIcon 
             pack="fab" 
             icon="discord"
-            href="https://discord.gg/hhVTMTUx">
+            href="https://discord.gg/qCgwcdGFYk">
           </SocialIcon>
         </div>
         </ul>

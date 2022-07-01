@@ -1,0 +1,25 @@
+{
+  "note": "To embed this list on your website or to contribute to this list please follow <a class=\"nextkind-list-link\" href=\"https://github.com/NextKind/website\" target=\"_blank\">https://github.com/NextKind/website</a>",
+  "links": [
+    {
+      "title": "Koto Co-Op",
+      "icon": "https://kotocoop.org/images/logo.svg",
+      "tags": ["community", "project", "tech-dev"],
+      "intro": "A community and a business working on/exploring/researching exponential growth to fund and implement living spaces, social constructs, designs and technology needed to go towards post-scarcity gift economy.",
+      "link": "https://kotocoop.org/?utm_source=nk_network&utm_medium=nk_linking&utm_campaign=nk_promo"
+    },
+    {
+      "title": "NextKind",
+      "tags": ["community", "project", "tech-dev", "for-profit"],
+      "intro": "A society actively working towards post-scarcity.",
+      "link": "https://nextkind.org/?utm_source=nk_network&utm_medium=nk_linking&utm_campaign=nk_promo"
+    },
+    {
+      "title": "The Venus Project",
+      "icon": "https://www.thevenusproject.com/wp-content/uploads/2015/08/logo_logo_gdt.svg",
+      "tags": ["project", "non-profit"],
+      "intro": "The Venus Project is a non-profit organization that presents a new socio-economic model utilizing science and technology toward social betterment to achieve a sustainable civilization of abundance for all, without exception.",
+      "link": "https://www.thevenusproject.com/?utm_source=nk_network&utm_medium=nk_linking&utm_campaign=nk_promo"
+    }
+  ]
+}

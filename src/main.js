@@ -7,6 +7,8 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faDiscord, faFacebookSquare, faYoutube } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import VueGtag from "vue-gtag"
+import axios from 'axios'
+import VueAxios from 'vue-axios'
 
 library.add(faDiscord, faEnvelope, faFacebookSquare, faYoutube)
 
@@ -15,6 +17,7 @@ app.use(router)
 app.use(VueGtag, {
   config: { id: "G-88T7YB7V5W" }
 }, router)
+app.use(VueAxios, axios)
 app.component('font-awesome-icon', FontAwesomeIcon)
 
 app.mount('#app')

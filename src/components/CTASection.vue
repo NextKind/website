@@ -12,7 +12,7 @@
         </p>
         <div class="buttons-cta">
           <a class="button"
-            href="https://discord.gg/hhVTMTUx" 
+            href="https://discord.gg/qCgwcdGFYk" 
             target="_blank"
           >
             <font-awesome-icon :icon="[ 'fab' , 'discord' ]" /> Discord

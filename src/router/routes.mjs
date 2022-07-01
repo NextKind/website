@@ -8,5 +8,10 @@ export default [
     path: '/about',
     name: 'about',
     component: () => import('../views/OrganizationView.vue')
+  },
+  {
+    path: '/related-efforts',
+    name: 'related-efforts',
+    component: () => import('../views/RelatedEffortsView.vue')
   }
 ]  

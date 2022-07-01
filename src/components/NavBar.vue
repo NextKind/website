@@ -19,6 +19,7 @@
 
       <div class="navbar-end">
         <router-link :to="{ path: '/' }" class="navbar-item" @click="scrollToTop">Home</router-link>
+        <router-link :to="{ path: '/related-efforts' }" class="navbar-item" @click="scrollToTop">Related Efforts</router-link>
       </div>
     </div>
   </div>
