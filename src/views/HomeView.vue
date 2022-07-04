@@ -56,24 +56,4 @@ export default {
   margin-top: 100px;
   margin-bottom: 100px;
 }
-
-.title {
-  color: white;
-  font-size: 3rem;
-  font-family: 'Rajdhani', 'sans-serif';
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.24em;
-  word-wrap: break-word;
-  margin-bottom: 50px;
-}
-
-.subtitle {
-  color: #e2e2e2;
-  font-size: 0.8rem;
-  font-weight: 400;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  padding-bottom: 4px;
-}
 </style>

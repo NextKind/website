@@ -19,12 +19,7 @@
 }
 
 .homepage .container .title {
-  color: white;
   font-size: 4rem;
-  font-family: 'Rajdhani', 'sans-serif';
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.24em;
 }
 
 .homepage .hero-texts {

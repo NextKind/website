@@ -36,24 +36,13 @@
     }
 
 .section-cta .title {
-  color: white;
   font-size: 2.5rem;
-  font-family: 'Rajdhani', 'sans-serif';
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.24em;
-  word-wrap: break-word;
   margin-bottom: 10px;
   text-align: left;
 }
 
 .section-cta .subtitle {
   color: #222831;
-  font-size: 0.8rem;
-  font-weight: 400;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  padding-bottom: 4px;
   text-align: left;
 }
 

@@ -63,4 +63,24 @@ nav a {
 nav a.router-link-exact-active {
   color: #42b983;
 }
+
+.title {
+  color: white !important;
+  font-size: 3rem !important;
+  font-family: 'Rajdhani', 'sans-serif';
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.24em;
+  word-wrap: break-word;
+  margin-bottom: 50px;
+}
+
+.subtitle {
+  color: #e2e2e2 !important;
+  font-size: 0.8rem !important;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding-bottom: 4px;
+}
 </style>
