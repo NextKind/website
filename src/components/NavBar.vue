@@ -2,7 +2,7 @@
   <div class="navbar" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <router-link :to="{ path: '/' }">
-        <img :src="require('../assets/nextkind-logo.png')" alt="NextKind">
+        <img :src="require('../assets/Nextkind Logo 300x70.png')" alt="NextKind">
       </router-link>
         
 
