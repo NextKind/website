@@ -36,13 +36,14 @@
     }
 
 .section-cta .title {
-  font-size: 2.5rem;
+  font-size: 2.5rem !important;
+  font-weight: 700;
   margin-bottom: 10px;
   text-align: left;
 }
 
 .section-cta .subtitle {
-  color: #222831;
+  color: #222831 !important;
   text-align: left;
 }
 

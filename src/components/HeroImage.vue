@@ -19,7 +19,8 @@
 }
 
 .homepage .container .title {
-  font-size: 4rem;
+  font-size: 4rem !important;
+  font-weight: 700;
 }
 
 .homepage .hero-texts {
@@ -32,7 +33,7 @@
 
 @media (max-width: 520px) {
   .homepage .container .title {
-    font-size: 2rem;
+    font-size: 2rem !important;
   }
 
   .homepage .container .subtitle {
