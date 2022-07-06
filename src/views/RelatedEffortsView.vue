@@ -2,7 +2,7 @@
 
   <div class="related">
     <div class="container has-text-centered">
-      <p class="subtitle">
+      <p class="subtitle" style="margin-top: 60px;">
         The following is a list of communities, projects, creations, and other efforts related to post-scarcity
       </p>
       <p class="title" style="margin-top: 60px;">
@@ -10,7 +10,7 @@
       </p>
     </div>
 
-    <div class="related-links">
+    <div class="related-links" style="margin-top: 60px;">
       <a class="related-links-card" v-for="(item, itemIndex) in communities" :key="itemIndex" :href="item.link" target="_blank">
         <div>
           <img :src="item.icon || placeholderIcon" :alt="item.title">
@@ -33,7 +33,7 @@
       </p>
     </div>
 
-    <ul class="related-links">
+    <ul class="related-links" style="margin-top: 60px;">
       <li v-for="(item, itemIndex) in other" :key="itemIndex">
         <UniversalLink :to="item.link">
           <strong>{{ item.title }}</strong>
@@ -117,6 +117,13 @@ div.related-links {
   box-sizing: border-box;
 }
 
+@media screen and (max-width: 1000px) {
+  .related-links-card {
+    width: 100%;
+    flex-basis: 100%;
+  }
+}
+
 .related-links-card > div {
   margin-bottom: 15px;
 }
@@ -136,8 +143,16 @@ div.related-links {
 }
 
 .related-links, .note {
-  margin: auto;
   width: 80vw;
+}
+.related-links, .note, .related .subtitle, .related .title {
+  margin: auto;
+}
+
+@media screen and (max-width: 1000px) {
+  .related-links, .note, .related .subtitle, .related .title {
+    width: 80vw;
+  }
 }
 
 .related .title {
