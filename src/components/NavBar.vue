@@ -18,8 +18,8 @@
       </div>
 
       <div class="navbar-end">
-        <router-link :to="{ path: '/' }" class="navbar-item" @click="scrollToTop">Home</router-link>
-        <router-link :to="{ path: '/related-efforts' }" class="navbar-item" @click="scrollToTop">Related Efforts</router-link>
+        <router-link :to="{ path: '/' }" class="navbar-item" active-class="navbar-item-active" @click="scrollToTop">Home</router-link>
+        <router-link :to="{ path: '/related-efforts' }" class="navbar-item" active-class="navbar-item-active" @click="scrollToTop">Related Efforts</router-link>
       </div>
     </div>
   </div>
@@ -28,7 +28,12 @@
 <script>
 
 export default {
-methods: { 
+  data () {
+    return {
+      menuOpen: false
+    }
+  },
+  methods: { 
     scrollToTop() {
       window.scrollTo(0,0)
     }
@@ -55,7 +60,7 @@ methods: {
 
 }
 
-.navbar-item:hover, a.navbar-item:focus {
+.navbar-item:hover, a.navbar-item:focus, .navbar-item-active {
   background-color: transparent;
   color: #006fc3;
 }
