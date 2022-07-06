@@ -174,7 +174,7 @@ div.related-links {
 }
 
 div.related-links a, div.related-links a:active, div.related-links a:visited, div.related-links a:hover {
-  color: #485fc7;
+  color: #fff;
 }
 
 div.related-links a:hover {
