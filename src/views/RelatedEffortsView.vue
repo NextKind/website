@@ -6,7 +6,7 @@
         The following is a list of communities, projects, creations, and other efforts related to post-scarcity
       </p>
       <p class="title" style="margin-top: 60px;">
-        Active Communities
+        Active Physical Communities
       </p>
     </div>
 
@@ -73,7 +73,7 @@ export default {
     let other = []
 
     for (let link of response.data.links) {
-      if (link.tags.includes('community')) {
+      if (link.tags.includes('community') && link.tags.includes('physical')) {
         communities.push(link)
       } else {
         other.push(link)

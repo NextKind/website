@@ -2,25 +2,63 @@
   "note": "To embed this list on your website, or to add something, please follow <a class=\"nextkind-list-link\" href=\"https://github.com/NextKind/website\" target=\"_blank\">https://github.com/NextKind/website</a>",
   "links": [
     {
+      "title": "Culture",
+      "tags": ["novel"],
+      "intro": "The Culture series is a science fiction series written by Scottish author Iain M. Banks and released from 1987 through to 2012. The stories centre on The Culture, a utopian, post-scarcity space society of humanoid aliens, and advanced superintelligent artificial intelligences living in artificial habitats spread across the Milky Way galaxy.",
+      "link": "https://en.wikipedia.org/wiki/Culture_series"
+    },
+    {
+      "title": "Fresco, Jacque",
+      "tags": ["futurist", "writer"],
+      "intro": "Fresco wrote and lectured his views on sustainable cities, energy efficiency, natural-resource management, cybernetic technology, automation, and the role of science in society. He directed the Venus Project and advocated global implementation of a socioeconomic system which he referred to as a \"resource-based economy\".",
+      "link": "https://en.wikipedia.org/wiki/Jacque_Fresco"
+    },
+    {
       "title": "Koto Co-Op",
       "icon": "https://kotocoop.org/images/logo.svg",
-      "tags": ["community", "project", "tech-dev"],
+      "tags": ["community", "physical", "project", "tech-dev"],
       "intro": "A community and a business working on/exploring/researching exponential growth to fund and implement living spaces, social constructs, designs and technology needed to go towards post-scarcity gift economy.",
       "link": "https://kotocoop.org/?utm_source=nk_network&utm_medium=nk_linking&utm_campaign=nk_promo"
     },
     {
       "title": "NEXTKIND",
       "icon": "https://nextkind.org/Nextkind-Icon-500.svg",
-      "tags": ["community", "project", "tech-dev", "for-profit"],
+      "tags": ["community", "physical", "tech-dev", "for-profit"],
       "intro": "A society actively working towards post-scarcity.",
       "link": "https://nextkind.org/?utm_source=nk_network&utm_medium=nk_linking&utm_campaign=nk_promo"
     },
     {
+      "title": "Open Source Ecology",
+      "icon": "https://www.opensourceecology.org/wp-content/uploads/2014/02/OSE_yellow-copy2.png",
+      "tags": ["community", "physical", "tech-dev"],
+      "intro": "The vision of Open Source Ecology is a world of collaborative design – for a transparent and inclusive economy of abundance.",
+      "link": "https://nextkind.org/?utm_source=nk_network&utm_medium=nk_linking&utm_campaign=nk_promo"
+    },
+    {
+      "title": "The Post-Scarcity World of 2050-2075",
+      "tags": ["paper"],
+      "intro": "The world economy will experience scarcities of natural resources from now until the middle of the twenty-first century, when a post-scarcity world becomes a reality, according to an international team of futurists.",
+      "link": "https://www.researchgate.net/publication/216807965_The_Post-Scarcity_World_of_2050-2075?utm_source=nk_network&utm_medium=nk_linking&utm_campaign=nk_promo"
+    },
+    {
       "title": "The Venus Project",
       "icon": "https://www.thevenusproject.com/wp-content/uploads/2015/08/logo_logo_gdt.svg",
-      "tags": ["project", "non-profit"],
+      "tags": ["project", "non-profit", "promoter"],
       "intro": "The Venus Project is a non-profit organization that presents a new socio-economic model utilizing science and technology toward social betterment to achieve a sustainable civilization of abundance for all, without exception.",
       "link": "https://www.thevenusproject.com/?utm_source=nk_network&utm_medium=nk_linking&utm_campaign=nk_promo"
+    },
+    {
+      "title": "Walkaway",
+      "tags": ["novel"],
+      "intro": "Set in our near-future, it is a story of walking away from \"non-work\", and surveillance and control by a brutal, immensely rich oligarchical elite; love and romance; a post-scarcity gift economy; revolution and eventual war; and a means of finally ending death.",
+      "link": "https://en.wikipedia.org/wiki/Walkaway_(Doctorow_novel)"
+    },
+    {
+      "title": "The Zeitgeist Movement",
+      "icon": "https://images.squarespace-cdn.com/content/v1/6176b8c75f376b4de6447d6c/cedad2c2-1261-4129-b309-9d911c63c4a9/Logo-TZM.jpg?format=1500w",
+      "tags": ["movement", "non-profit", "promoter"],
+      "intro": "A global, grassroots sustainability movement seeking holistic change for better wellbeing for everyone.",
+      "link": "https://www.thezeitgeistmovement.com/?utm_source=nk_network&utm_medium=nk_linking&utm_campaign=nk_promo"
     }
   ]
 }
