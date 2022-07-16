@@ -3,7 +3,7 @@
     <div class="hero-body">
       <div class="container has-text-centered">
         <p class="title">
-          The Next Kind is a new society actively working towards the world of post-scarcity
+          The Next Kind is a new community actively working towards the world of post-scarcity
         </p>
       </div>
     </div>

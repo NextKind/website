@@ -16,16 +16,13 @@
   <RoadMapStep when="March/April 2022">
     <p>A group of like-minded people joined and the Next Kind was founded. (What Transhuma was meant to become.)</p>
   </RoadMapStep>
+  <RoadMapStep when="July 2022">
+    <p>We found a temporary plot of land where we could unite physically and start working on prototypes.</p>
+  </RoadMapStep>
 </section>
 
 <section class="cd-timeline cd-container future">
   <div class="cd-timeline-block"></div>
-  <RoadMapStep when="June/July 2022">
-    <p>Incorporate a legal body for the community.</p>
-  </RoadMapStep>
-  <RoadMapStep when="July/August 2022">
-    <p>Rent a temporary land, unite physically, and start working on the farm prototype.</p>
-  </RoadMapStep>
   <RoadMapStep when="Autumn/Winter 2023">
     <p>A working 3D simulation of the farm, with software ready to be deployed to the physical prototype.</p>
   </RoadMapStep>

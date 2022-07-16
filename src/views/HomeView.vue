@@ -16,7 +16,7 @@
       <p>Post-scarcity is a theoretical economic situation in which most goods can be produced in great abundance with minimal human labor needed, so that they become available to all very cheaply or even freely. <UniversalLink to="https://en.wikipedia.org/wiki/Post-scarcity_economy">Wikipedia</UniversalLink></p>
     </ExpandableQuestion>
     <ExpandableQuestion heading="What do you do in practice?">
-      <p>We invest time and money into the research of technology required to achieve fully automatic supply chains.</p>
+      <p>A community developing the missing chunks of post-scarcity-enabling tech in the fields of packing, shipping, and farming.</p>
     </ExpandableQuestion>
     <ExpandableQuestion heading="What type of organization are you?">
       <p>The results of our research are open source and free to use to <i>not for profit</i>/<i>community</i> purposes, and the same results are licensed to <i>for profit</i> parties for a fee. We are a <i>for profit</i> to make things happen.</p>
