@@ -22,7 +22,7 @@
 </section>
 
 <section class="cd-timeline cd-container future">
-  <div class="cd-timeline-block"></div>
+  <!-- <div class="cd-timeline-block"></div> -->
   <RoadMapStep when="Autumn/Winter 2023">
     <p>A working 3D simulation of the farm, with software ready to be deployed to the physical prototype.</p>
   </RoadMapStep>
