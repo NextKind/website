@@ -26,14 +26,13 @@
         </ul>
       <ul class="box">
         <li class="link_name">The Next Kind</li>
-        <li>The Next Kind is a new society actively working towards the world of post-scarcity.</li>
+        <li>A for-profit community developing the missing chunks of post-scarcity-enabling tech.</li>
       </ul>
       <ul class="box">
         <li class="link_name">Links</li>
-        <li><router-link :to="{ path: '/' }">Home</router-link></li>
         <li><a href="https://discord.gg/hhVTMTUx">Join Us on Discord</a></li>
-        <li><a href="https://transhuma.tech/#/framework/overview">The Tech Framework</a></li>
-        <li><a href="http://transhuma.tech/#the-future-we-are-building">The Future We Are Building</a></li>
+        <li><a href="https://ahh.mirek.cc/#/framework/overview">The Tech Framework</a></li>
+        <li><UniversalLink to="/media-resources">Media Resources</UniversalLink></li>
       </ul>
     </div>
   </div>
@@ -51,9 +50,10 @@
 
 <script>
 import SocialIcon from '@/components/SocialIcon.vue';
+import UniversalLink from '@/components/UniversalLink.vue';
 
 export default {
-  components: { SocialIcon }
+  components: { SocialIcon, UniversalLink }
 }
 </script>
 

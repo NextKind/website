@@ -1,6 +1,5 @@
 <template>
 <section class="cd-timeline cd-container">
-
   <RoadMapStep when="June 2020">
     <p><i>The Future We Are Building</i> book published and Transhuma was founded.</p>
   </RoadMapStep>

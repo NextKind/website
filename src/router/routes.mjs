@@ -13,5 +13,10 @@ export default [
     path: '/related-efforts',
     name: 'related-efforts',
     component: () => import('../views/RelatedEffortsView.vue')
+  },
+  {
+    path: '/media-resources',
+    name: 'media-resources',
+    component: () => import('../views/MediaResourcesView.vue')
   }
 ]  
