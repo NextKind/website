@@ -10,7 +10,4 @@ export default {
 </script>
 
 <style scoped>
-  a {
-    color: #00f8ff;
-  }
 </style>

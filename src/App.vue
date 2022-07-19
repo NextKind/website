@@ -40,6 +40,15 @@ export default {
   }
 /* ===== END Scrollbar CSS ===== */
 
+
+a, a:visited {
+  color: #006fc3 !important;
+}
+
+a:active, a:hover {
+  color: #00f8ff !important;
+}
+
 body {
 	background: #191C23;
 }
@@ -49,19 +58,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
-}
-
-nav {
-  padding: 30px;
-}
-
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-nav a.router-link-exact-active {
-  color: #42b983;
 }
 
 .title {
@@ -83,4 +79,5 @@ nav a.router-link-exact-active {
   letter-spacing: 0.1em;
   padding-bottom: 4px;
 }
+
 </style>

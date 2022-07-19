@@ -15,8 +15,8 @@ export default [
     component: () => import('../views/RelatedEffortsView.vue')
   },
   {
-    path: '/media-resources',
-    name: 'media-resources',
+    path: '/branding',
+    name: 'branding',
     component: () => import('../views/MediaResourcesView.vue')
   }
 ]  

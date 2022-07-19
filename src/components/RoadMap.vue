@@ -13,7 +13,7 @@
     <p>The search for the first place, where to start prototyping the tech and grow an experimental community, has begun.</p>
   </RoadMapStep>
   <RoadMapStep when="March/April 2022">
-    <p>A group of like-minded people joined and the Next Kind was founded. (What Transhuma was meant to become.)</p>
+    <p>A group of like-minded people joined and the NextKind was founded. (What Transhuma was meant to become.)</p>
   </RoadMapStep>
   <RoadMapStep when="July 2022">
     <p>We found a temporary plot of land where we could unite physically and start working on prototypes.</p>

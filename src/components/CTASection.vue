@@ -60,7 +60,7 @@
   border-color: white;
   border-width: 3px;
   border-radius: 0;
-  color: white;
+  color: white !important;
   height: 3em;
   margin-right: 20px;
   margin-bottom: 20px;

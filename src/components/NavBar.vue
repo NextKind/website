@@ -52,7 +52,7 @@ export default {
 }
 
 .navbar-item, .navbar-link {
-  color: white;
+  color: white !important;
   font-family: 'Rajdhani', 'sans-serif';
   font-weight: 600;
   letter-spacing: 0.3em;
@@ -62,7 +62,7 @@ export default {
 
 .navbar-item:hover, a.navbar-item:focus, .navbar-item-active {
   background-color: transparent;
-  color: #006fc3;
+  color: #006fc3 !important;
 }
 
 .navbar-brand img {

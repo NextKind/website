@@ -10,7 +10,7 @@
           <SocialIcon 
             pack="fab" 
             icon="facebook-square"
-            href="https://www.facebook.com/Transhuma">
+            href="https://www.facebook.com/NextKind">
           </SocialIcon>
           <SocialIcon 
             pack="fab" 
@@ -25,20 +25,20 @@
         </div>
         </ul>
       <ul class="box">
-        <li class="link_name">The Next Kind</li>
+        <li class="link_name">The NextKind</li>
         <li>A for-profit community developing the missing chunks of post-scarcity-enabling tech.</li>
       </ul>
       <ul class="box">
         <li class="link_name">Links</li>
         <li><a href="https://discord.gg/hhVTMTUx">Join Us on Discord</a></li>
         <li><a href="https://ahh.mirek.cc/#/framework/overview">The Tech Framework</a></li>
-        <li><UniversalLink to="/media-resources">Media Resources</UniversalLink></li>
+        <li><UniversalLink to="/branding" @click="scrollToTop">Branding</UniversalLink></li>
       </ul>
     </div>
   </div>
   <div class="bottom-details">
     <div class="bottom_text">
-      <span class="copyright_text">© 2022 The Next Kind. All Rights Reserved.
+      <span class="copyright_text">© 2022 The NextKind. All Rights Reserved.
       </span>
     </div>
   </div>
@@ -53,7 +53,12 @@ import SocialIcon from '@/components/SocialIcon.vue';
 import UniversalLink from '@/components/UniversalLink.vue';
 
 export default {
-  components: { SocialIcon, UniversalLink }
+  components: { SocialIcon, UniversalLink },
+  methods: { 
+    scrollToTop() {
+      window.scrollTo(0,0)
+    }
+  }
 }
 </script>
 
@@ -113,20 +118,7 @@ footer .content .link-boxes .box{
   list-style: none;
 }
 .content .link-boxes .box li a{
-  color: #888;
   font-weight: 400;
-}
-
-.content .link-boxes .box li a.email {
-  color: #006fc3;
-}
-
-.content .link-boxes .box li a.email:hover {
-  color: #00f8ff;
-}
-
-.content .link-boxes .box li a:hover{
-  color: #006fc3;
 }
 
 footer .bottom-details{
