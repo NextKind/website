@@ -20,7 +20,7 @@
           <SocialIcon 
             pack="fab" 
             icon="discord"
-            href="https://discord.gg/qCgwcdGFYk">
+            href="https://nextkind.org/dis">
           </SocialIcon>
         </div>
         </ul>
@@ -30,7 +30,7 @@
       </ul>
       <ul class="box">
         <li class="link_name">Links</li>
-        <li><a href="https://discord.gg/hhVTMTUx">Join Us on Discord</a></li>
+        <li><a href="https://nextkind.org/dis">Join Us on Discord</a></li>
         <li><a href="https://ahh.mirek.cc/#/framework/overview">The Tech Framework</a></li>
         <li><UniversalLink to="/branding" @click="scrollToTop">Branding</UniversalLink></li>
       </ul>
