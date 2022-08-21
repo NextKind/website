@@ -18,5 +18,10 @@ export default [
     path: '/branding',
     name: 'branding',
     component: () => import('../views/MediaResourcesView.vue')
+  },
+  {
+    path: '/privacy-policy',
+    name: 'privacy-policy',
+    component: () => import('../views/PrivacyPolicyView.vue')
   }
 ]  
