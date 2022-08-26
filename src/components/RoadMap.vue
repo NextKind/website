@@ -18,15 +18,15 @@
   <RoadMapStep when="July 2022">
     <p>We found a temporary plot of land where we could unite physically and start working on prototypes.</p>
   </RoadMapStep>
+  <RoadMapStep when="August 2022">
+    <p>We started working on 3D visualizations of our proposed tech solutions.</p>
+  </RoadMapStep>
 </section>
 
 <section class="cd-timeline cd-container future">
-  <!-- <div class="cd-timeline-block"></div> -->
-  <RoadMapStep when="Autumn/Winter 2023">
-    <p>A working 3D simulation of the farm, with software ready to be deployed to the physical prototype.</p>
-  </RoadMapStep>
-  <RoadMapStep when="Summer/Autumn 2023">
-    <p>A working prototype of the farm.</p>
+  <div class="cd-timeline-block"></div>
+  <RoadMapStep when="Spring/Summer 2023">
+    <p>Getting funding for the first prototype.</p>
   </RoadMapStep>
   <RoadMapStep when="Next">
     <p>Acquiring land, community project, and the beginning of construction.</p>
