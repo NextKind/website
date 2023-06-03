@@ -33,6 +33,7 @@
         <li><a href="https://nextkind.org/dis">Join Us on Discord</a></li>
         <li><a href="https://ahh.mirek.cc/#/framework/overview">The Tech Framework</a></li>
         <li><UniversalLink to="/branding" @click="scrollToTop">Branding</UniversalLink></li>
+        <li><UniversalLink to="/privacy-policy" @click="scrollToTop">Privacy Policy</UniversalLink></li>
       </ul>
     </div>
   </div>
