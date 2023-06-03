@@ -80,4 +80,8 @@ body {
   padding-bottom: 4px;
 }
 
+.justified {
+  text-align: justify;
+}
+
 </style>
