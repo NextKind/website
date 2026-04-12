@@ -1,9 +1,9 @@
 <template>
   <div class="navbar" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
-      <router-link :to="{ path: '/' }">
-        <img :src="require('../assets/Nextkind Logo 300x70.png')" alt="NextKind">
-      </router-link>
+      <NuxtLink to="/">
+        <img src="../assets/Nextkind Logo 300x70.png" alt="NextKind">
+      </NuxtLink>
         
 
       <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" @click="menuOpen = !menuOpen">
@@ -18,8 +18,8 @@
       </div>
 
       <div class="navbar-end">
-        <router-link :to="{ path: '/' }" class="navbar-item" active-class="navbar-item-active" @click="scrollToTop">Home</router-link>
-        <router-link :to="{ path: '/related-efforts' }" class="navbar-item" active-class="navbar-item-active" @click="scrollToTop">Related Efforts</router-link>
+        <NuxtLink to="/" class="navbar-item" active-class="navbar-item-active" @click="scrollToTop">Home</NuxtLink>
+        <NuxtLink to="/related-efforts" class="navbar-item" active-class="navbar-item-active" @click="scrollToTop">Related Efforts</NuxtLink>
       </div>
     </div>
   </div>
@@ -71,7 +71,7 @@ export default {
 }
 
 .navbar-end {
-  font-size: 0.8rem;
+  font-size: 1rem;
   color: white;
 }
 

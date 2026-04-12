@@ -1,0 +1,14 @@
+{
+  "name": "nextkind-org",
+  "main": ".output/server/index.mjs",
+  "compatibility_date": "2026-04-12",
+  "assets": {
+    "directory": ".output/public"
+  },
+  "build": {
+    "command": "npm run build"
+  },
+  "observability": {
+    "enabled": true
+  }
+}

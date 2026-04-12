@@ -22,7 +22,7 @@ npm install
 
 ### Compiles and hot-reloads for development
 ```
-npm run serve
+npm run dev
 ```
 
 ### Compiles and minifies for production
@@ -30,10 +30,29 @@ npm run serve
 npm run build
 ```
 
-### Lints and fixes files
+### Customize configuration
+See [Nuxt Configuration Reference](https://nuxt.com/docs/api/nuxt-config).
+
+## Cloudflare Workers deployment
+
+This repository now includes a root `wrangler.jsonc` configured for Nuxt's Cloudflare Workers output.
+
+### Local Cloudflare preview
 ```
-npm run lint
+npm run preview:cf
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Wrangler runs `npm run build` first and serves the generated Worker from `.output/server/index.mjs` with static assets from `.output/public`.
+
+### Deploy to Cloudflare Workers
+```
+npm run deploy:cf
+```
+
+Before deploying the first time:
+
+1. Install and authenticate Wrangler if it is not already available on your machine.
+2. Update the Worker name in `wrangler.jsonc` if you want a different deployment name.
+3. Add routes or a custom domain in `wrangler.jsonc` once the Cloudflare zone is ready.
+
+The legacy PHP-backed `/links/?version=1` endpoint is handled by Nitro so it continues to work when deployed on Workers.
