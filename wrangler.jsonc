@@ -1,5 +1,5 @@
 {
-  "name": "nextkind-org",
+  "name": "website",
   "main": ".output/server/index.mjs",
   "compatibility_date": "2026-04-12",
   "assets": {
